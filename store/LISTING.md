@@ -35,7 +35,7 @@ The content script runs on HTTP and HTTPS webpages to detect user text selection
 ## Remote code
 No remotely hosted code is executed. All JavaScript, dictionaries, and stroke data are bundled in the extension.
 
-## Data practices draft
+## Data practices
 No user data is collected or transmitted to the developer or third parties. Selected or pasted text is processed locally, without a saved lookup history. Only the Show meaning preference is persisted in local storage. External attribution links open third-party websites when clicked.
 
 ## Reviewer instructions
