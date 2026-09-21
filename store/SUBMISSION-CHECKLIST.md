@@ -14,7 +14,7 @@
 - Open the Chrome Web Store developer dashboard, complete any registration, upload the ZIP and artwork, copy the listing/privacy fields, and submit for review. Publisher dashboard access was denied in this session; nothing was uploaded or submitted.
 
 ## Assets
-Use screenshot-character-1280x800.png and screenshot-phrase-1280x800.png for screenshots; pinyin-study-promo-440x280.png for the small promotional tile. The screenshots use the real popup in a promotional layout, without browser-only installation claims. The generated promotional image is artwork, not a UI screenshot.
+Use screenshot-character-1280x800.jpg and screenshot-phrase-1280x800.jpg for screenshots; pinyin-study-promo-440x280.png for the small promotional tile. The screenshots use the real popup in a promotional layout, without browser-only installation claims. The generated promotional image is artwork, not a UI screenshot.
 
 ## Sources
 https://developer.chrome.com/docs/webstore/images
