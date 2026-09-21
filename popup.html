@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pinyin Study</title><link rel="stylesheet" href="popup.css"></head>
+<body><header><span class="badge">拼</span><div><h1>Pinyin Study</h1><p>A little help with every character.</p></div></header>
+<label for="text">Chinese character or phrase</label><textarea id="text" maxlength="300" placeholder="Try 学习中文 or 银行" autofocus></textarea>
+<label class="meaning-toggle"><input type="checkbox" id="show-meaning"> Show meaning</label>
+<div id="source" hidden><div id="result" aria-live="polite"><p class="note">Type above to see pinyin with tone marks.</p></div>
+<div id="meaning" aria-live="polite" hidden></div>
+</div><div id="reading-layout"><main id="page" aria-live="polite"></main><aside id="strokes" hidden><strong>Stroke order</strong><div id="stroke-canvas" role="img" aria-label="Character stroke order"></div><p id="stroke-status" aria-live="polite"></p><button id="stroke-replay" disabled>Replay</button></aside></div><nav id="pager" aria-label="Reading pages"><button id="prev" aria-label="Previous page">←</button><span id="page-count"></span><button id="next" aria-label="Next page">→</button></nav>
+<footer>Offline · Definitions: <a href="https://www.mdbg.net/chinese/dictionary?page=cc-cedict" target="_blank">CC-CEDICT</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> · Word meanings, not sentence translation. <a href="https://hanziwriter.org/license.html" target="_blank">Stroke credits</a>.</footer>
+<script src="vendor/pinyin-pro.js"></script><script src="reading.js"></script><script src="popup.js"></script><script src="pages.js"></script><script src="vendor/hanzi-writer.min.js"></script><script src="strokes.js"></script></body></html>
