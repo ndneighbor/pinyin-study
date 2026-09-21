@@ -1,12 +1,12 @@
 # Pinyin Study — Chrome Web Store release
 
-## Public pages
+## Public pages on Railway
 
-- Product and support: https://ngelo.xyz/pinyin-study
-- Privacy policy: https://ngelo.xyz/pinyin-study/privacy
+- Product and support: https://site-production-7fa7.up.railway.app/pinyin-study
+- Privacy policy: https://site-production-7fa7.up.railway.app/pinyin-study/privacy
 - Support email: email@ngelo.xyz
 
-These URLs become valid after this site change is merged and deployed. Verify both pages before entering them in the developer dashboard. The product page offers Chrome Web Store installation only; submission archives are kept outside the public site.
+The Railway URLs were deployed and verified on September 21, 2026. The eventual custom-domain routes are https://ngelo.xyz/pinyin-study and https://ngelo.xyz/pinyin-study/privacy. The product page offers Chrome Web Store installation only; submission archives are kept outside the public site.
 
 ## Install link
 
@@ -20,7 +20,7 @@ The companion ndneighbor/pinyin-study repository contains `store/LISTING.md`, pr
 
 ## Outstanding release steps
 
-1. Deploy this product and privacy page.
+1. Use the verified Railway product and privacy URLs above in the submission.
 2. Finish installed-extension verification: selection card, right-click menu, long-text pagination, and disconnected-network behavior.
 3. Create or open the item in the Chrome Web Store developer dashboard, upload the extension ZIP, complete the listing/privacy fields, and submit for review. Dashboard access was denied during preparation; submission has not occurred.
 4. After publication, verify and add the store URL as described above.
