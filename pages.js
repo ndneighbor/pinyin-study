@@ -5,7 +5,9 @@ const count = document.getElementById('page-count');
 let pages = [], pageIndex = 0;
 function displayPage() {
   pageView.replaceChildren(...(pages[pageIndex] || []).map(node => node.cloneNode(true)));
-  count.textContent = pages.length > 1 ? `${pageIndex + 1} / ${pages.length}` : 'All in one view';
+  const multiplePages = pages.length > 1;
+  document.getElementById('pager').style.visibility = multiplePages ? 'visible' : 'hidden';
+  count.textContent = multiplePages ? `${pageIndex + 1} / ${pages.length}` : '';
   previous.disabled = pageIndex === 0; next.disabled = pageIndex >= pages.length - 1;
 }
 function paginate() {
