@@ -49,3 +49,10 @@ No account or credentials are required.
 
 ## Release notes
 1.4.4: Simplified footer credits and hid unnecessary single-page navigation.
+
+## Website and support
+Homepage (after site deployment): https://ngelo.xyz/pinyin-study
+Privacy policy (after site deployment): https://ngelo.xyz/pinyin-study/privacy
+Support: email@ngelo.xyz
+
+Do not enter the proposed URLs into the store until the website change is deployed and the pages are publicly accessible.

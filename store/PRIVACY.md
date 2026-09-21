@@ -20,4 +20,4 @@ The credits contain links to dictionary and licensing websites. Opening one visi
 Pinyin Study does not sell or share user data and does not use it for advertising, creditworthiness, or lending decisions.
 
 ## Contact
-Use the support contact shown on Pinyin Study's Chrome Web Store listing for privacy questions.
+Email email@ngelo.xyz for support or privacy questions.

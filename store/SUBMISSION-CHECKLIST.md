@@ -1,20 +1,22 @@
-# Submission readiness
+# Submission status — Pinyin Study 1.4.4
 
-Prepared:
-- Version 1.4.4 ZIP with manifest at archive root, runtime files, icons, and dependency licenses.
-- Listing, single-purpose statement, permission justifications, reviewer steps, and privacy policy draft.
+## Ready
+- Verified upload ZIP, 9,594 files, manifest at root, bundled licenses.
+- 440 × 280 promotional PNG and two 1280 × 800 screenshots captured from the real popup running locally in Chrome.
+- Listing, single-purpose statement, permission explanations, reviewer instructions, and privacy policy.
+- Website product page, download, support contact, credits, and privacy page prepared in ngelo.xyz pull request.
+- Website production build passed.
+- Popup checked in Chrome: 学 pronunciation, English meaning and eight-stroke diagram; 银行 phrase pronunciation and definition, with stroke panel hidden.
 
-Before submitting:
-- Run the reviewer steps in LISTING.md on the installed extension. Browser installation and end-to-end checks have not been performed by this preparation pass.
-- Capture at least one actual-use screenshot at 1280 × 800 or 640 × 400 pixels. Suggested subjects: selecting text on a webpage, a single-character lookup with strokes, and a phrase with definitions.
-- Create the required 440 × 280 promotional image and review the 128 × 128 icon against Chrome's padding guidance.
-- Publish PRIVACY.md at a publicly accessible URL. The current private GitHub repository is not a public privacy-policy URL.
-- Set a monitored support contact in the developer listing; the privacy policy refers users to that contact.
-- Sign in to the Chrome Web Store developer dashboard and complete any developer registration requirements.
-- Upload the new ZIP, enter the listing and privacy fields, upload artwork, choose distribution, and review the completed draft before submitting for review.
+## Still required
+- Merge and deploy the ngelo.xyz change, then verify https://ngelo.xyz/pinyin-study and https://ngelo.xyz/pinyin-study/privacy are publicly available.
+- Test the installed extension's selection card, right-click menu, long-text pagination, and disconnected-network behavior. Chrome extension management was blocked by browser policy. Local popup checks do not replace these installation checks.
+- Open the Chrome Web Store developer dashboard, complete any registration, upload the ZIP and artwork, copy the listing/privacy fields, and submit for review. Publisher dashboard access was denied in this session; nothing was uploaded or submitted.
 
-Sources:
-- https://developer.chrome.com/docs/webstore/prepare
-- https://developer.chrome.com/docs/webstore/images
-- https://developer.chrome.com/docs/webstore/cws-dashboard-privacy
-- https://developer.chrome.com/docs/webstore/publish
+## Assets
+Use screenshot-character-1280x800.png and screenshot-phrase-1280x800.png for screenshots; pinyin-study-promo-440x280.png for the small promotional tile. The screenshots use the real popup in a promotional layout, without browser-only installation claims. The generated promotional image is artwork, not a UI screenshot.
+
+## Sources
+https://developer.chrome.com/docs/webstore/images
+https://developer.chrome.com/docs/webstore/cws-dashboard-privacy
+https://developer.chrome.com/docs/webstore/publish
