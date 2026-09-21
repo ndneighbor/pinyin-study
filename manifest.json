@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Pinyin Study",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Select Chinese text to see Mandarin pinyin. Offline, with tone marks and alternate readings.",
   "action": {
     "default_popup": "popup.html",
