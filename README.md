@@ -1,6 +1,19 @@
 # Pinyin Study
 
+See how Chinese text is pronounced while you read. Select a word or phrase, right-click, and choose **Show pinyin**. Single characters also show stroke order. English meanings are optional.
+
+## Demo
+
+[![Pinyin Study on a Chinese news article](store/demo/pinyin-study-demo.gif)](store/demo/pinyin-study-demo.mp4)
+
+[Watch the demo](store/demo/pinyin-study-demo.mp4) — a right-click lookup on Zaobao, followed by the stroke order for **车**.
+
+[Product page](https://site-production-7fa7.up.railway.app/pinyin-study) · [Privacy](https://site-production-7fa7.up.railway.app/pinyin-study/privacy) · [Graphics and screenshots](store/README.md)
+
+The publisher reported submitting version 1.4.5 to the Chrome Web Store on September 21, 2026. A verified store link will be added after publication.
+
 ## Install in desktop Google Chrome
+
 1. Open chrome://extensions in Chrome.
 2. Turn on **Developer mode** (top right).
 3. Click **Load unpacked** and select this **pinyin-study** folder.
@@ -10,12 +23,13 @@
 Try: 学 → xué; 你好 → nǐ hǎo; 银行 → yín háng; 重庆 → chóng qìng.
 
 ## Notes
+
 - Mandarin pinyin with tone marks. A single character shows alternate readings when available; phrases improve pronunciation choices. Names and ambiguous text can still be misread.
 - Look up up to 300 characters at a time.
 - Toolbar lookup reads the selection in the main page on ordinary HTTP/HTTPS websites. Chrome settings, the Chrome Web Store, the built-in PDF viewer, images, and embedded frames are not supported by toolbar lookup. Paste text into the popup when a page does not support selection lookup.
 - Toolbar lookup skips editable fields. Paste text into the popup for text you are writing.
 - Everything is processed locally. No tracking, accounts, or saved browsing history. The extension reads a page selection only when you invoke a lookup; it does not monitor webpages in the background.
-- This is a local unpacked extension, not a Chrome Web Store publication. Keep the folder in place after installation.
+- The steps above install an unpacked development copy. Keep the folder in place after installation.
 
 ## Credits
 Bundled pinyin-pro 3.29.4 (MIT), https://github.com/zh-lx/pinyin-pro. License included in vendor/LICENSE. The dependency is bundled locally; no remotely hosted code is executed.

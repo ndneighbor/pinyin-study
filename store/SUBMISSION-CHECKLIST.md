@@ -1,5 +1,9 @@
 # Submission status — Pinyin Study 1.4.5
 
+## Submitted for review
+- On September 21, 2026, the publisher reported completing the Chrome Web Store submission for version 1.4.5.
+- Review is pending; the dashboard status has not been independently verified. Approval, publication, and a public listing URL have not been verified.
+
 ## Ready
 - Verified 1.4.5 upload ZIP: 9,593 files, manifest at root, bundled licenses. Every packaged file matches the current source; archive integrity and all bundled JSON checked. Permissions are contextMenus, activeTab, and scripting, with no host permissions or persistent content scripts.
 - 440 × 280 promotional PNG and two 1280 × 800 screenshots captured from the real popup running locally in Chrome.
@@ -12,7 +16,6 @@
 ## Still required
 - After store publication, add the verified listing URL to the site’s `src/data/pinyin-study.json` and deploy to enable Add to Chrome. Until then the page shows Coming to the Chrome Web Store.
 - Test the installed extension's toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior. Chrome extension management was blocked by browser policy. Local popup checks do not replace these installation checks.
-- Upload the 1.4.5 extension ZIP to the existing Chrome Web Store item and update the listing/privacy fields. Disclose Website content for local text processing, complete the data-use certifications, and provide and verify the publisher contact email before submitting for review. Automated publisher dashboard access is blocked; these dashboard steps need to be completed manually.
 
 ## Assets
 Use screenshot-character-1280x800.jpg and screenshot-phrase-1280x800.jpg for screenshots; pinyin-study-promo-440x280.png for the small promotional tile. The screenshots use the real popup in a promotional layout, without browser-only installation claims. The generated promotional image is artwork, not a UI screenshot.

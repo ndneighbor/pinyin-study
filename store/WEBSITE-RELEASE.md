@@ -1,5 +1,9 @@
 # Pinyin Study — Chrome Web Store release
 
+## Submission status
+
+On September 21, 2026, the publisher reported completing the Chrome Web Store submission for version 1.4.5. Review is pending; the dashboard status has not been independently verified. Approval, publication, and a public listing URL have not been verified.
+
 ## Public pages on Railway
 
 - Product and support: https://site-production-7fa7.up.railway.app/pinyin-study
@@ -22,7 +26,5 @@ Version 1.4.5 uses toolbar and right-click lookups. It requests contextMenus, ac
 
 ## Outstanding release steps
 
-1. Use the verified Railway product and privacy URLs above in the submission.
-2. Finish installed-extension verification: toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior.
-3. Open the item in the Chrome Web Store developer dashboard, upload the 1.4.5 extension ZIP, complete the listing/privacy fields and contact email verification, and submit for review. Automated dashboard access is blocked; these steps need to be completed manually.
-4. After publication, verify and add the store URL as described above.
+1. Finish installed-extension verification: toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior. Submission does not establish that these checks were performed.
+2. After approval and publication, verify and add the store URL as described above.
