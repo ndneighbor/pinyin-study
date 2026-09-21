@@ -1,17 +1,18 @@
-# Submission status — Pinyin Study 1.4.4
+# Submission status — Pinyin Study 1.4.5
 
 ## Ready
-- Verified upload ZIP, 9,594 files, manifest at root, bundled licenses. Every packaged file matches the current source; archive integrity and all bundled JSON checked.
+- Verified 1.4.5 upload ZIP: 9,593 files, manifest at root, bundled licenses. Every packaged file matches the current source; archive integrity and all bundled JSON checked. Permissions are contextMenus, activeTab, and scripting, with no host permissions or persistent content scripts.
 - 440 × 280 promotional PNG and two 1280 × 800 screenshots captured from the real popup running locally in Chrome.
-- Listing, single-purpose statement, permission explanations, reviewer instructions, and privacy policy.
+- Listing, single-purpose statement, permission explanations, reviewer instructions, and privacy policy updated for toolbar and right-click lookups without broad website access.
 - Chrome Web Store product page, support contact, credits, and privacy page deployed to Railway. Public ZIP downloads and developer-install steps are removed.
-- Website deployed and verified at https://site-production-7fa7.up.railway.app. Product and privacy pages return 200; canonical URLs, social images, CSS, and 404 behavior checked.
+- Website deployed and verified at https://site-production-7fa7.up.railway.app. Updated 1.4.5 product and privacy copy is live; both pages return 200 with correct canonical URLs. Social images, CSS, and 404 behavior were checked during the original deployment.
 - Popup checked in Chrome: 学 pronunciation, English meaning and eight-stroke diagram; 银行 phrase pronunciation and definition, with stroke panel hidden.
+- All 22 automated checks pass for toolbar selection, input and stroke updates, permission scope, protected-page fallback, editable fields, context-menu input, and delayed-result races. Chrome APIs are mocked in these checks.
 
 ## Still required
 - After store publication, add the verified listing URL to the site’s `src/data/pinyin-study.json` and deploy to enable Add to Chrome. Until then the page shows Coming to the Chrome Web Store.
-- Test the installed extension's selection card, right-click menu, long-text pagination, and disconnected-network behavior. Chrome extension management was blocked by browser policy. Local popup checks do not replace these installation checks.
-- Open the Chrome Web Store developer dashboard, complete any registration, upload the ZIP and artwork, copy the listing/privacy fields, and submit for review. Publisher dashboard access was denied in this session; nothing was uploaded or submitted.
+- Test the installed extension's toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior. Chrome extension management was blocked by browser policy. Local popup checks do not replace these installation checks.
+- Upload the 1.4.5 extension ZIP to the existing Chrome Web Store item and update the listing/privacy fields. Disclose Website content for local text processing, complete the data-use certifications, and provide and verify the publisher contact email before submitting for review. Automated publisher dashboard access is blocked; these dashboard steps need to be completed manually.
 
 ## Assets
 Use screenshot-character-1280x800.jpg and screenshot-phrase-1280x800.jpg for screenshots; pinyin-study-promo-440x280.png for the small promotional tile. The screenshots use the real popup in a promotional layout, without browser-only installation claims. The generated promotional image is artwork, not a UI screenshot.

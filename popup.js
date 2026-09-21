@@ -57,14 +57,45 @@ async function updateMeaning() {
 toggle.addEventListener('change', () => {
   localStorage.setItem('showMeaning', String(toggle.checked)); updateMeaning();
 });
-input.addEventListener('input', updateReading);
+let selectionRevision = 0;
+input.addEventListener('input', () => {
+  selectionRevision++;
+  updateReading();
+});
 function acceptSelection() {
+  selectionRevision++;
   const selectedText = new URLSearchParams(location.hash.slice(1)).get('text');
   if (selectedText !== null) {
     input.value = selectedText.slice(0, 300);
     history.replaceState(null, '', location.pathname);
   }
   updateReading();
+  return selectedText !== null;
+}
+
+async function readTabSelection() {
+  if (!globalThis.chrome?.scripting || !chrome.tabs) return;
+  const version = selectionRevision;
+  try {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (!tab?.id || !/^https?:\/\//.test(tab.url || '')) return;
+    if (version !== selectionRevision) return;
+    const [selection] = await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => {
+        const active = document.activeElement;
+        if (active?.matches('input, textarea') || active?.isContentEditable) return '';
+        return (window.getSelection()?.toString() || '').trim().slice(0, 300);
+      }
+    });
+    const text = selection?.result;
+    if (version !== selectionRevision || typeof text !== 'string' || !/\p{Script=Han}/u.test(text)) return;
+    input.value = text.slice(0, 300);
+    // Notify the reading and stroke panels together, just like typed text.
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+  } catch {
+    // Chrome-protected pages remain usable through the popup's text field.
+  }
 }
 window.addEventListener('hashchange', acceptSelection);
-acceptSelection();
+if (!acceptSelection()) readTabSelection();

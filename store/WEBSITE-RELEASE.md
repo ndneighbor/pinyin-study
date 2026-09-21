@@ -16,11 +16,13 @@ Once the store listing is published, set that field to its full `https://chromew
 
 ## Submission materials
 
-The companion ndneighbor/pinyin-study repository contains `store/LISTING.md`, privacy disclosures, screenshots, and promotional art. Use the extension-only `pinyin-study-1.4.4.zip` for the store upload. The larger submission bundle contains reference documents and artwork and must not be uploaded as the extension package.
+The companion ndneighbor/pinyin-study repository contains `store/LISTING.md`, privacy disclosures, screenshots, and promotional art. Use the extension-only `pinyin-study-1.4.5.zip` for the store upload. The larger submission bundle contains reference documents and artwork and must not be uploaded as the extension package.
+
+Version 1.4.5 uses toolbar and right-click lookups. It requests contextMenus, activeTab, and scripting, without broad host permissions or persistent content scripts. The product page and privacy policy describe this behavior.
 
 ## Outstanding release steps
 
 1. Use the verified Railway product and privacy URLs above in the submission.
-2. Finish installed-extension verification: selection card, right-click menu, long-text pagination, and disconnected-network behavior.
-3. Create or open the item in the Chrome Web Store developer dashboard, upload the extension ZIP, complete the listing/privacy fields, and submit for review. Dashboard access was denied during preparation; submission has not occurred.
+2. Finish installed-extension verification: toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior.
+3. Open the item in the Chrome Web Store developer dashboard, upload the 1.4.5 extension ZIP, complete the listing/privacy fields and contact email verification, and submit for review. Automated dashboard access is blocked; these steps need to be completed manually.
 4. After publication, verify and add the store URL as described above.

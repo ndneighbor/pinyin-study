@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Pinyin Study",
-  "version": "1.4.4",
-  "description": "Select Chinese text to see Mandarin pinyin. Offline, with tone marks and alternate readings.",
+  "version": "1.4.5",
+  "description": "Look up Chinese text for Mandarin pinyin, word meanings, and stroke order. Works offline.",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Pinyin Study",
@@ -12,22 +12,10 @@
       "48": "icons/48.png"
     }
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js": [
-        "vendor/pinyin-pro.js",
-        "reading.js",
-        "content.js"
-      ],
-      "run_at": "document_idle"
-    }
-  ],
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "activeTab",
+    "scripting"
   ],
   "background": {
     "service_worker": "background.js"
