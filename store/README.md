@@ -1,5 +1,7 @@
 # Pinyin Study media
 
+[Install Pinyin Study from the Chrome Web Store](https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp).
+
 ## Demo
 
 [![Watch the demo](demo/demo-poster.jpg)](demo/pinyin-study-demo.mp4)

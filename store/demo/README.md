@@ -1,5 +1,7 @@
 # Pinyin Study demo
 
+[Add to Chrome](https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp)
+
 [Watch the demo](pinyin-study-demo.mp4)
 
 ![Pinyin Study showing Mandarin pinyin with English meanings turned off](demo-poster.jpg)

@@ -1,8 +1,8 @@
 # Pinyin Study — Chrome Web Store release
 
-## Submission status
+## Publication status
 
-On September 21, 2026, the publisher reported completing the Chrome Web Store submission for version 1.4.5. Review is pending; the dashboard status has not been independently verified. Approval, publication, and a public listing URL have not been verified.
+Pinyin Study 1.4.5 is published on the [Chrome Web Store](https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp). The public listing was verified on September 21, 2026: version 1.4.5, offered by Angelo, with Add to Chrome available.
 
 ## Public pages on Railway
 
@@ -14,9 +14,9 @@ The Railway URLs were deployed and verified on September 21, 2026. The eventual 
 
 ## Install link
 
-`src/data/pinyin-study.json` contains `chromeWebStoreUrl`. It is currently null because a published listing URL has not been provided or verified.
+`src/data/pinyin-study.json` contains `chromeWebStoreUrl`. It is currently null, so the deployed product page still shows Coming to the Chrome Web Store.
 
-Once the store listing is published, set that field to its full `https://chromewebstore.google.com/detail/...` URL. Build and deploy. The page automatically replaces the availability message with Add to Chrome. Do not link to search results, the publisher dashboard, or a locally installed extension ID.
+Set that field to `https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp`, then build and deploy. The page automatically replaces the availability message with Add to Chrome. Do not link to search results, the publisher dashboard, or a locally installed extension ID.
 
 ## Submission materials
 
@@ -27,4 +27,4 @@ Version 1.4.5 uses toolbar and right-click lookups. It requests contextMenus, ac
 ## Outstanding release steps
 
 1. Finish installed-extension verification: toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior. Submission does not establish that these checks were performed.
-2. After approval and publication, verify and add the store URL as described above.
+2. Add the published store URL to the website and deploy as described above.

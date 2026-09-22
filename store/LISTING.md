@@ -1,5 +1,10 @@
 # Chrome Web Store listing
 
+## Published listing
+Pinyin Study 1.4.5 is live: https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp
+
+The public listing was verified on September 21, 2026: version 1.4.5, offered by Angelo, with Add to Chrome available. The text below is retained as the listing and reviewer reference for this release.
+
 ## Name
 Pinyin Study
 
@@ -38,7 +43,7 @@ Provides temporary access to the current tab when the user clicks the Pinyin Stu
 Runs a bundled function once in the active page to read the user's selected text after a toolbar click. The selection is processed locally for pinyin, word definitions, and stroke order. No code is downloaded or injected into other tabs.
 
 ## Host permissions
-Version 1.4.5 requests no host permissions and has no persistent content scripts. Upload the new package to replace the earlier broad website access request.
+Version 1.4.5 requests no host permissions and has no persistent content scripts.
 
 ## Remote code
 Select "No, I am not using remote code." All JavaScript, dictionaries, and stroke data are bundled in the extension. No remotely hosted code is executed.
