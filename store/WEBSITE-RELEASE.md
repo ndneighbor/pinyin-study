@@ -14,9 +14,9 @@ The Railway URLs were deployed and verified on September 21, 2026. The eventual 
 
 ## Install link
 
-`src/data/pinyin-study.json` contains `chromeWebStoreUrl`. It is currently null, so the deployed product page still shows Coming to the Chrome Web Store.
+`src/data/pinyin-study.json` now sets `chromeWebStoreUrl` to `https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp`. The product page uses this URL for Add to Chrome in place of the availability message.
 
-Set that field to `https://chromewebstore.google.com/detail/pinyin-study/llfggmdlfkdimnnofjcidjdicnaoiajp`, then build and deploy. The page automatically replaces the availability message with Add to Chrome. Do not link to search results, the publisher dashboard, or a locally installed extension ID.
+The Railway deployment is verified: the public product page returns HTTP 200, shows Add to Chrome linked to the published listing, and no longer shows Coming to the Chrome Web Store. The privacy page also returns HTTP 200. Do not link to search results, the publisher dashboard, or a locally installed extension ID.
 
 ## Submission materials
 
@@ -27,4 +27,3 @@ Version 1.4.5 uses toolbar and right-click lookups. It requests contextMenus, ac
 ## Outstanding release steps
 
 1. Finish installed-extension verification: toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior. Submission does not establish that these checks were performed.
-2. Add the published store URL to the website and deploy as described above.

@@ -10,11 +10,11 @@
 - Listing, single-purpose statement, permission explanations, reviewer instructions, and privacy policy updated for toolbar and right-click lookups without broad website access.
 - Chrome Web Store product page, support contact, credits, and privacy page deployed to Railway. Public ZIP downloads and developer-install steps are removed.
 - Website deployed and verified at https://site-production-7fa7.up.railway.app. Updated 1.4.5 product and privacy copy is live; both pages return 200 with correct canonical URLs. Social images, CSS, and 404 behavior were checked during the original deployment.
+- The live product page now shows Add to Chrome linked to the published Chrome Web Store listing. The updated product and privacy pages return HTTP 200, and the availability message is removed.
 - Popup checked in Chrome: 学 pronunciation, English meaning and eight-stroke diagram; 银行 phrase pronunciation and definition, with stroke panel hidden.
 - All 22 automated checks pass for toolbar selection, input and stroke updates, permission scope, protected-page fallback, editable fields, context-menu input, and delayed-result races. Chrome APIs are mocked in these checks.
 
 ## Still required
-- Add the published listing URL above to the site’s `src/data/pinyin-study.json` and deploy to enable Add to Chrome. The setting is still null; until it is updated and deployed, the page shows Coming to the Chrome Web Store.
 - Test the installed extension's toolbar selection lookup, right-click menu, protected-page paste fallback, long-text pagination, and disconnected-network behavior. Chrome extension management was blocked by browser policy. Local popup checks do not replace these installation checks.
 
 ## Assets
